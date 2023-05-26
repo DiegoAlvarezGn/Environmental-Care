@@ -30,12 +30,13 @@
     background-color: var(--main-text-color);
     color: #000;
     padding: 30px;
+    padding-bottom: 10px;
     border-radius: 8px;
     max-width: 80vw;
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 30px;
+    gap: 50px;
   }
 
 .card button{
@@ -45,4 +46,16 @@
     color: #fff;
     font-weight: bold;
     border-radius: 30px;
+}
+
+@media (min-width: 600px) {
+  .card{
+    width: 60vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card{
+    width: 50vw;
+  }
 }
