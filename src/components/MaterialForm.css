@@ -1,0 +1,44 @@
+.MaterialForm{
+    background-color: var(--main-text-color);
+    border-radius: 8px;
+    padding: 20px;
+    color: var(--main-color);
+}
+.MaterialForm .material-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+.material-title img{
+    height: 40px;
+    animation: leafAnimation 4s ease-in-out infinite forwards;
+}
+.MaterialForm .material-form{
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; 
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+}
+.item p{
+    word-break: break-all;
+}
+.material-form input{
+    all: unset;
+    text-align: center;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+}
+.item-prompt{
+    font-weight: bold;
+    font-size: 120%;
+}

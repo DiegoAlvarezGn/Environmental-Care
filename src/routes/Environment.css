@@ -1,0 +1,38 @@
+.main-wrapper{
+    overflow: scroll;
+}
+.Environment{
+    color: var(--main-text-color);
+    height: auto;
+    min-height: 100vh;;
+    padding: 30px;
+    padding-top: 150px;
+}
+
+.Environment h1{
+    animation: floatAnimation 4s ease-in-out infinite;
+}
+
+.card-container{
+    display: grid;
+    gap: 20px;
+}
+.references{
+    background-color: var(--main-text-color);
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.references a{
+    display: block;
+    text-decoration: inherit;
+    color: var(--main-color);
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+.references span{
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}

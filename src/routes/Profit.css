@@ -1,0 +1,19 @@
+.main-wrapper{
+    overflow: scroll;
+}
+.Profit{
+    color: var(--main-text-color);
+    height: auto;
+    min-height: 100vh;
+    padding: 30px;
+    padding-top: 175px;
+}
+.Profit header{
+    text-align: center;
+    animation: floatAnimation 4s ease-in-out infinite;
+    margin-bottom: 10px;
+}
+.profit-content{
+    display: grid;
+    gap: 20px;
+}

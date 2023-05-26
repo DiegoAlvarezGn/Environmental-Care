@@ -1,0 +1,40 @@
+.leaf {
+  width: 6rem;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  animation: leafAnimation 4s ease-in-out infinite forwards;
+}
+.reverse-leaf {
+  animation: reverseLeafAnimation 5s ease-in-out infinite forwards;
+  width: 7rem;
+}
+
+.bigger-leaf {
+  width: 12rem;
+}
+
+@keyframes leafAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px) rotateZ(10deg);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes reverseLeafAnimation {
+  0% {
+    transform: translateY(0) rotateY(180deg);
+  }
+  50% {
+    transform: translateY(-10px) rotateZ(10deg) rotateY(180deg);
+  }
+  100% {
+    transform: translateY(0) rotateY(180deg);
+  }
+}

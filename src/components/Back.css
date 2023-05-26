@@ -1,0 +1,21 @@
+.Back{
+    position: fixed;
+    left: 20px;
+    top: 50px;
+    background-color: var(--main-text-color);
+    color: var(--main-color);
+    text-decoration: inherit;
+    padding: 5px 20px 5px 10px;
+    border-radius: 50px;
+    animation: floatAnimation 4s ease-in-out infinite;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.Back div{
+    text-decoration: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Back div img{
+    height: 40px;
+}

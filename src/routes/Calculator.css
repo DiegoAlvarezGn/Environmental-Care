@@ -1,0 +1,79 @@
+.main-wrapper{
+    overflow: scroll;
+}
+.Calculator{
+    color: var(--main-text-color);
+    height: auto;
+    min-height: 100vh;;
+    padding: 30px;
+    padding-top: 150px;
+}
+.Calculator header{
+    text-align: center;
+    animation: floatAnimation 4s ease-in-out infinite;
+    margin-bottom: 80px;
+}
+.Calculator header img{
+    width: 300px;
+    position: absolute;
+    z-index: 50;
+    left: 50%;
+    transform: translate(-50%, -60px);
+}
+.Calculator header h1{
+    position: relative;
+    z-index: 100;
+}
+.calculator__form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.form__section{
+    background-color: var(--main-text-color);
+    color: var(--main-color);
+    border-radius: 8px;
+    padding: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.form__section input, .form__section select {
+    all: unset;
+    line-height: 2rem;
+    border: solid #c6c6c6 2px;
+    border-radius: 8px;
+    padding: 0px 15px 0px 15px;
+}
+.form__section select{
+    appearance: auto;
+    padding: 15px;
+}
+
+.form__section input:focus {
+    border: solid #c6c6c6 2px;
+    box-shadow: inset 0 0 4px #c5c5c5;
+}
+
+.form__section__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: floatAnimation 2s ease-in-out infinite;
+}
+
+.form__section__title img{
+    height: 50px;
+    transform: rotate(30deg);
+}
+
+.calculator__form button{
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    color: var(--main-text-color);
+    font-weight: bold;
+    background-color: var(--main-button-color);
+}

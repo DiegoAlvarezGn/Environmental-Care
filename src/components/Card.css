@@ -1,0 +1,41 @@
+.Card{
+    background-color: var(--main-text-color);
+    color: var(--main-color);
+    border-radius: 8px;
+}
+.Card img{
+    width: 100%;
+    height: 170px;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+}
+.Card .text{
+    padding: 20px;
+}
+.Card h2{
+    margin-bottom: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+.arrow{
+    text-align: center;
+}
+
+.arrow img{
+    height: 40px;
+    object-fit: contain;
+}
+
+.reverse{
+    transform: rotate(180deg);
+}
+.normal{
+    transform: rotate(0deg);
+}
